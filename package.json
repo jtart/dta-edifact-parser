@@ -1,0 +1,26 @@
+{
+  "name": "dta-edifact-parser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "go": "vercel --prod"
+  },
+  "dependencies": {
+    "edifact": "^1.2.12",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-json-view-lite": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "vercel": "^32.7.2"
+  }
+}

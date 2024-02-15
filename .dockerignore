@@ -1,0 +1,38 @@
+# flyctl launch added from dta-edifact-parser/.gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+dta-edifact-parser/node_modules
+dta-edifact-parser/.pnp
+dta-edifact-parser/**/.pnp.js
+dta-edifact-parser/**/.yarn/install-state.gz
+
+# testing
+dta-edifact-parser/coverage
+
+# next.js
+dta-edifact-parser/.next
+dta-edifact-parser/out
+
+# production
+dta-edifact-parser/build
+
+# misc
+dta-edifact-parser/**/.DS_Store
+dta-edifact-parser/**/*.pem
+
+# debug
+dta-edifact-parser/**/npm-debug.log*
+dta-edifact-parser/**/yarn-debug.log*
+dta-edifact-parser/**/yarn-error.log*
+
+# local env files
+dta-edifact-parser/**/.env*.local
+
+# vercel
+dta-edifact-parser/**/.vercel
+
+# typescript
+dta-edifact-parser/**/*.tsbuildinfo
+dta-edifact-parser/**/next-env.d.ts
+fly.toml
